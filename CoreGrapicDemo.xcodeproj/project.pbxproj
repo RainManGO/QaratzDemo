@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185FBBB81FE772FF005C91B0 /* QuartzCapJointWidthViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FBBB71FE772FF005C91B0 /* QuartzCapJointWidthViews.m */; };
 		18C1BFE91FE21C47008ABBDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1BFE81FE21C47008ABBDE /* AppDelegate.m */; };
 		18C1BFEC1FE21C47008ABBDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1BFEB1FE21C47008ABBDE /* ViewController.m */; };
 		18C1BFEF1FE21C47008ABBDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C1BFED1FE21C47008ABBDE /* Main.storyboard */; };
 		18C1BFF11FE21C47008ABBDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C1BFF01FE21C47008ABBDE /* Assets.xcassets */; };
 		18C1BFF41FE21C47008ABBDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C1BFF21FE21C47008ABBDE /* LaunchScreen.storyboard */; };
 		18C1BFF71FE21C47008ABBDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1BFF61FE21C47008ABBDE /* main.m */; };
+		18C1BFFF1FE24763008ABBDE /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1BFFE1FE24763008ABBDE /* QuartzView.m */; };
+		18C1C0061FE24946008ABBDE /* LinesQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1C0051FE24946008ABBDE /* LinesQuartzView.m */; };
+		18C1C00D1FE24F57008ABBDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C1C00C1FE24F57008ABBDE /* CoreGraphics.framework */; };
+		18FC59111FE8B45200806662 /* DashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC59101FE8B45200806662 /* DashView.m */; };
+		18FC59141FE8B64200806662 /* DashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC59131FE8B64200806662 /* DashViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		184CC9261FE3B8D1004582F0 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		185FBBB61FE772FF005C91B0 /* QuartzCapJointWidthViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCapJointWidthViews.h; sourceTree = "<group>"; };
+		185FBBB71FE772FF005C91B0 /* QuartzCapJointWidthViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzCapJointWidthViews.m; sourceTree = "<group>"; };
 		18C1BFE41FE21C46008ABBDE /* CoreGrapicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreGrapicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C1BFE71FE21C47008ABBDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18C1BFE81FE21C47008ABBDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +35,15 @@
 		18C1BFF31FE21C47008ABBDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C1BFF51FE21C47008ABBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C1BFF61FE21C47008ABBDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C1BFFD1FE24763008ABBDE /* QuartzView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzView.h; sourceTree = "<group>"; };
+		18C1BFFE1FE24763008ABBDE /* QuartzView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzView.m; sourceTree = "<group>"; };
+		18C1C0041FE24946008ABBDE /* LinesQuartzView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinesQuartzView.h; sourceTree = "<group>"; };
+		18C1C0051FE24946008ABBDE /* LinesQuartzView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinesQuartzView.m; sourceTree = "<group>"; };
+		18C1C00C1FE24F57008ABBDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18FC590F1FE8B45200806662 /* DashView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashView.h; sourceTree = "<group>"; };
+		18FC59101FE8B45200806662 /* DashView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashView.m; sourceTree = "<group>"; };
+		18FC59121FE8B64200806662 /* DashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashViewController.h; sourceTree = "<group>"; };
+		18FC59131FE8B64200806662 /* DashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C1C00D1FE24F57008ABBDE /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		184CC9251FE3B780004582F0 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				184CC9261FE3B8D1004582F0 /* Config.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
 		18C1BFDB1FE21C46008ABBDE = {
 			isa = PBXGroup;
 			children = (
 				18C1BFE61FE21C46008ABBDE /* CoreGrapicDemo */,
 				18C1BFE51FE21C46008ABBDE /* Products */,
+				18C1C00B1FE24F57008ABBDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +86,9 @@
 		18C1BFE61FE21C46008ABBDE /* CoreGrapicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				184CC9251FE3B780004582F0 /* Macro */,
+				18C1C0071FE24E4C008ABBDE /* Category */,
+				18C1C0001FE24770008ABBDE /* QuartzViewDemo */,
 				18C1BFE71FE21C47008ABBDE /* AppDelegate.h */,
 				18C1BFE81FE21C47008ABBDE /* AppDelegate.m */,
 				18C1BFEA1FE21C47008ABBDE /* ViewController.h */,
@@ -69,6 +100,38 @@
 				18C1BFF61FE21C47008ABBDE /* main.m */,
 			);
 			path = CoreGrapicDemo;
+			sourceTree = "<group>";
+		};
+		18C1C0001FE24770008ABBDE /* QuartzViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18C1BFFD1FE24763008ABBDE /* QuartzView.h */,
+				18C1BFFE1FE24763008ABBDE /* QuartzView.m */,
+				18C1C0041FE24946008ABBDE /* LinesQuartzView.h */,
+				18C1C0051FE24946008ABBDE /* LinesQuartzView.m */,
+				185FBBB61FE772FF005C91B0 /* QuartzCapJointWidthViews.h */,
+				185FBBB71FE772FF005C91B0 /* QuartzCapJointWidthViews.m */,
+				18FC590F1FE8B45200806662 /* DashView.h */,
+				18FC59101FE8B45200806662 /* DashView.m */,
+				18FC59121FE8B64200806662 /* DashViewController.h */,
+				18FC59131FE8B64200806662 /* DashViewController.m */,
+			);
+			path = QuartzViewDemo;
+			sourceTree = "<group>";
+		};
+		18C1C0071FE24E4C008ABBDE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18C1C00B1FE24F57008ABBDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C1C00C1FE24F57008ABBDE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +205,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185FBBB81FE772FF005C91B0 /* QuartzCapJointWidthViews.m in Sources */,
 				18C1BFEC1FE21C47008ABBDE /* ViewController.m in Sources */,
+				18C1BFFF1FE24763008ABBDE /* QuartzView.m in Sources */,
+				18C1C0061FE24946008ABBDE /* LinesQuartzView.m in Sources */,
 				18C1BFF71FE21C47008ABBDE /* main.m in Sources */,
+				18FC59111FE8B45200806662 /* DashView.m in Sources */,
+				18FC59141FE8B64200806662 /* DashViewController.m in Sources */,
 				18C1BFE91FE21C47008ABBDE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
