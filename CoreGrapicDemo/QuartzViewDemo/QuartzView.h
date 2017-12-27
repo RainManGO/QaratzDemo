@@ -11,5 +11,5 @@
 @interface QuartzView : UIView
 
 -(void)centerDrawing:(CGContextRef)context drawingExtent:(CGRect)Rect scaleToFit:(BOOL)scale;
-
+-(void)drawInContext:(CGContextRef)ctx;
 @end

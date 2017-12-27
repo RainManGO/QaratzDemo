@@ -10,8 +10,8 @@
 
 @implementation DashView
 
--(void)drawRect:(CGRect)rect{
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
+-(void)drawInContext:(CGContextRef)ctx{
+    
     [self centerDrawing:ctx drawingExtent:CGRectMake(0, 0, 320, 140) scaleToFit:NO];
     
     CGContextSetStrokeColorWithColor(ctx, [UIColor whiteColor].CGColor);
@@ -32,6 +32,8 @@
     
     CGContextSetLineWidth(ctx, 2.0);
     CGContextStrokePath(ctx);
+
+    
 }
 
 @end

@@ -24,8 +24,11 @@
     
 }
 
-//不重写drawRect drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx;不调用
+-(void)drawInContext:(CGContextRef)ctx{
+    
+}
 
 -(void)drawRect:(CGRect)rect{
+    [self drawInContext:UIGraphicsGetCurrentContext()];
 }
 @end

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1833D04E1FF1E04C002C8B6A /* PolygonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833D04D1FF1E04C002C8B6A /* PolygonsViewController.m */; };
+		1833D0511FF1F48C002C8B6A /* EllipseArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833D0501FF1F48C002C8B6A /* EllipseArcView.m */; };
+		1833D0541FF1F4A8002C8B6A /* BerierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833D0531FF1F4A8002C8B6A /* BerierView.m */; };
+		1833D0571FF1F585002C8B6A /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833D0561FF1F585002C8B6A /* ImageView.m */; };
+		1833D05A1FF1F59B002C8B6A /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833D0591FF1F59B002C8B6A /* PDFView.m */; };
 		185FBBB81FE772FF005C91B0 /* QuartzCapJointWidthViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FBBB71FE772FF005C91B0 /* QuartzCapJointWidthViews.m */; };
 		18C1BFE91FE21C47008ABBDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1BFE81FE21C47008ABBDE /* AppDelegate.m */; };
 		18C1BFEC1FE21C47008ABBDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1BFEB1FE21C47008ABBDE /* ViewController.m */; };
@@ -19,9 +24,21 @@
 		18C1C00D1FE24F57008ABBDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C1C00C1FE24F57008ABBDE /* CoreGraphics.framework */; };
 		18FC59111FE8B45200806662 /* DashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC59101FE8B45200806662 /* DashView.m */; };
 		18FC59141FE8B64200806662 /* DashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC59131FE8B64200806662 /* DashViewController.m */; };
+		18FC59171FE8E4AE00806662 /* RectanglesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC59161FE8E4AE00806662 /* RectanglesView.m */; };
+		18FC591A1FE8F46300806662 /* Polygons.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC59191FE8F46300806662 /* Polygons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1833D04C1FF1E04C002C8B6A /* PolygonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolygonsViewController.h; sourceTree = "<group>"; };
+		1833D04D1FF1E04C002C8B6A /* PolygonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolygonsViewController.m; sourceTree = "<group>"; };
+		1833D04F1FF1F48C002C8B6A /* EllipseArcView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EllipseArcView.h; sourceTree = "<group>"; };
+		1833D0501FF1F48C002C8B6A /* EllipseArcView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EllipseArcView.m; sourceTree = "<group>"; };
+		1833D0521FF1F4A8002C8B6A /* BerierView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BerierView.h; sourceTree = "<group>"; };
+		1833D0531FF1F4A8002C8B6A /* BerierView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BerierView.m; sourceTree = "<group>"; };
+		1833D0551FF1F585002C8B6A /* ImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		1833D0561FF1F585002C8B6A /* ImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
+		1833D0581FF1F59B002C8B6A /* PDFView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
+		1833D0591FF1F59B002C8B6A /* PDFView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFView.m; sourceTree = "<group>"; };
 		184CC9261FE3B8D1004582F0 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		185FBBB61FE772FF005C91B0 /* QuartzCapJointWidthViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCapJointWidthViews.h; sourceTree = "<group>"; };
 		185FBBB71FE772FF005C91B0 /* QuartzCapJointWidthViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzCapJointWidthViews.m; sourceTree = "<group>"; };
@@ -44,6 +61,10 @@
 		18FC59101FE8B45200806662 /* DashView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashView.m; sourceTree = "<group>"; };
 		18FC59121FE8B64200806662 /* DashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashViewController.h; sourceTree = "<group>"; };
 		18FC59131FE8B64200806662 /* DashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashViewController.m; sourceTree = "<group>"; };
+		18FC59151FE8E4AD00806662 /* RectanglesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectanglesView.h; sourceTree = "<group>"; };
+		18FC59161FE8E4AE00806662 /* RectanglesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectanglesView.m; sourceTree = "<group>"; };
+		18FC59181FE8F46300806662 /* Polygons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Polygons.h; sourceTree = "<group>"; };
+		18FC59191FE8F46300806662 /* Polygons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Polygons.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +136,20 @@
 				18FC59101FE8B45200806662 /* DashView.m */,
 				18FC59121FE8B64200806662 /* DashViewController.h */,
 				18FC59131FE8B64200806662 /* DashViewController.m */,
+				18FC59151FE8E4AD00806662 /* RectanglesView.h */,
+				18FC59161FE8E4AE00806662 /* RectanglesView.m */,
+				18FC59181FE8F46300806662 /* Polygons.h */,
+				18FC59191FE8F46300806662 /* Polygons.m */,
+				1833D04C1FF1E04C002C8B6A /* PolygonsViewController.h */,
+				1833D04D1FF1E04C002C8B6A /* PolygonsViewController.m */,
+				1833D04F1FF1F48C002C8B6A /* EllipseArcView.h */,
+				1833D0501FF1F48C002C8B6A /* EllipseArcView.m */,
+				1833D0521FF1F4A8002C8B6A /* BerierView.h */,
+				1833D0531FF1F4A8002C8B6A /* BerierView.m */,
+				1833D0551FF1F585002C8B6A /* ImageView.h */,
+				1833D0561FF1F585002C8B6A /* ImageView.m */,
+				1833D0581FF1F59B002C8B6A /* PDFView.h */,
+				1833D0591FF1F59B002C8B6A /* PDFView.m */,
 			);
 			path = QuartzViewDemo;
 			sourceTree = "<group>";
@@ -205,13 +240,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FC591A1FE8F46300806662 /* Polygons.m in Sources */,
 				185FBBB81FE772FF005C91B0 /* QuartzCapJointWidthViews.m in Sources */,
+				1833D0571FF1F585002C8B6A /* ImageView.m in Sources */,
 				18C1BFEC1FE21C47008ABBDE /* ViewController.m in Sources */,
 				18C1BFFF1FE24763008ABBDE /* QuartzView.m in Sources */,
 				18C1C0061FE24946008ABBDE /* LinesQuartzView.m in Sources */,
+				1833D04E1FF1E04C002C8B6A /* PolygonsViewController.m in Sources */,
+				18FC59171FE8E4AE00806662 /* RectanglesView.m in Sources */,
+				1833D0541FF1F4A8002C8B6A /* BerierView.m in Sources */,
 				18C1BFF71FE21C47008ABBDE /* main.m in Sources */,
+				1833D05A1FF1F59B002C8B6A /* PDFView.m in Sources */,
 				18FC59111FE8B45200806662 /* DashView.m in Sources */,
 				18FC59141FE8B64200806662 /* DashViewController.m in Sources */,
+				1833D0511FF1F48C002C8B6A /* EllipseArcView.m in Sources */,
 				18C1BFE91FE21C47008ABBDE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
