@@ -11,8 +11,14 @@
 		1833D0511FF1F48C002C8B6A /* EllipseArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833D0501FF1F48C002C8B6A /* EllipseArcView.m */; };
 		1833D0541FF1F4A8002C8B6A /* BerierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833D0531FF1F4A8002C8B6A /* BerierView.m */; };
 		1833D0571FF1F585002C8B6A /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833D0561FF1F585002C8B6A /* ImageView.m */; };
-		1833D05A1FF1F59B002C8B6A /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833D0591FF1F59B002C8B6A /* PDFView.m */; };
 		185FBBB81FE772FF005C91B0 /* QuartzCapJointWidthViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FBBB71FE772FF005C91B0 /* QuartzCapJointWidthViews.m */; };
+		186916AD1FF391B800052606 /* Demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 186916AC1FF391B800052606 /* Demo.png */; };
+		18AFA3B31FF48DB60005AD97 /* Quartz.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18AFA3B21FF48DB60005AD97 /* Quartz.pdf */; };
+		18AFA3B51FF49F170005AD97 /* avfoundation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18AFA3B41FF49F170005AD97 /* avfoundation.pdf */; };
+		18AFA3BF1FF4BF8A0005AD97 /* PDFHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA3BE1FF4BF8A0005AD97 /* PDFHelper.m */; };
+		18AFA3FC1FF4E0040005AD97 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA3FB1FF4E0040005AD97 /* PageViewController.m */; };
+		18AFA3FF1FF4E0DE0005AD97 /* QuartzPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA3FE1FF4E0DE0005AD97 /* QuartzPDFView.m */; };
+		18AFA4051FF4E3280005AD97 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA4041FF4E3280005AD97 /* PDFViewController.m */; };
 		18C1BFE91FE21C47008ABBDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1BFE81FE21C47008ABBDE /* AppDelegate.m */; };
 		18C1BFEC1FE21C47008ABBDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1BFEB1FE21C47008ABBDE /* ViewController.m */; };
 		18C1BFEF1FE21C47008ABBDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C1BFED1FE21C47008ABBDE /* Main.storyboard */; };
@@ -37,11 +43,21 @@
 		1833D0531FF1F4A8002C8B6A /* BerierView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BerierView.m; sourceTree = "<group>"; };
 		1833D0551FF1F585002C8B6A /* ImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
 		1833D0561FF1F585002C8B6A /* ImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
-		1833D0581FF1F59B002C8B6A /* PDFView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
-		1833D0591FF1F59B002C8B6A /* PDFView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFView.m; sourceTree = "<group>"; };
 		184CC9261FE3B8D1004582F0 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		185FBBB61FE772FF005C91B0 /* QuartzCapJointWidthViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCapJointWidthViews.h; sourceTree = "<group>"; };
 		185FBBB71FE772FF005C91B0 /* QuartzCapJointWidthViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzCapJointWidthViews.m; sourceTree = "<group>"; };
+		186916AB1FF33DCB00052606 /* CoreGrapic.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGrapic.pch; sourceTree = "<group>"; };
+		186916AC1FF391B800052606 /* Demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Demo.png; sourceTree = "<group>"; };
+		18AFA3B21FF48DB60005AD97 /* Quartz.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Quartz.pdf; sourceTree = "<group>"; };
+		18AFA3B41FF49F170005AD97 /* avfoundation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = avfoundation.pdf; sourceTree = "<group>"; };
+		18AFA3BD1FF4BF8A0005AD97 /* PDFHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFHelper.h; sourceTree = "<group>"; };
+		18AFA3BE1FF4BF8A0005AD97 /* PDFHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFHelper.m; sourceTree = "<group>"; };
+		18AFA3FA1FF4E0040005AD97 /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		18AFA3FB1FF4E0040005AD97 /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		18AFA3FD1FF4E0DE0005AD97 /* QuartzPDFView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzPDFView.h; sourceTree = "<group>"; };
+		18AFA3FE1FF4E0DE0005AD97 /* QuartzPDFView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzPDFView.m; sourceTree = "<group>"; };
+		18AFA4031FF4E3280005AD97 /* PDFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		18AFA4041FF4E3280005AD97 /* PDFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
 		18C1BFE41FE21C46008ABBDE /* CoreGrapicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreGrapicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C1BFE71FE21C47008ABBDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18C1BFE81FE21C47008ABBDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +103,15 @@
 			path = Macro;
 			sourceTree = "<group>";
 		};
+		186916AA1FF32E9C00052606 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				18AFA3BD1FF4BF8A0005AD97 /* PDFHelper.h */,
+				18AFA3BE1FF4BF8A0005AD97 /* PDFHelper.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		18C1BFDB1FE21C46008ABBDE = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +132,7 @@
 		18C1BFE61FE21C46008ABBDE /* CoreGrapicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				186916AA1FF32E9C00052606 /* Utils */,
 				184CC9251FE3B780004582F0 /* Macro */,
 				18C1C0071FE24E4C008ABBDE /* Category */,
 				18C1C0001FE24770008ABBDE /* QuartzViewDemo */,
@@ -116,9 +142,13 @@
 				18C1BFEB1FE21C47008ABBDE /* ViewController.m */,
 				18C1BFED1FE21C47008ABBDE /* Main.storyboard */,
 				18C1BFF01FE21C47008ABBDE /* Assets.xcassets */,
+				18AFA3B21FF48DB60005AD97 /* Quartz.pdf */,
+				18AFA3B41FF49F170005AD97 /* avfoundation.pdf */,
+				186916AC1FF391B800052606 /* Demo.png */,
 				18C1BFF21FE21C47008ABBDE /* LaunchScreen.storyboard */,
 				18C1BFF51FE21C47008ABBDE /* Info.plist */,
 				18C1BFF61FE21C47008ABBDE /* main.m */,
+				186916AB1FF33DCB00052606 /* CoreGrapic.pch */,
 			);
 			path = CoreGrapicDemo;
 			sourceTree = "<group>";
@@ -148,8 +178,12 @@
 				1833D0531FF1F4A8002C8B6A /* BerierView.m */,
 				1833D0551FF1F585002C8B6A /* ImageView.h */,
 				1833D0561FF1F585002C8B6A /* ImageView.m */,
-				1833D0581FF1F59B002C8B6A /* PDFView.h */,
-				1833D0591FF1F59B002C8B6A /* PDFView.m */,
+				18AFA3FA1FF4E0040005AD97 /* PageViewController.h */,
+				18AFA3FB1FF4E0040005AD97 /* PageViewController.m */,
+				18AFA3FD1FF4E0DE0005AD97 /* QuartzPDFView.h */,
+				18AFA3FE1FF4E0DE0005AD97 /* QuartzPDFView.m */,
+				18AFA4031FF4E3280005AD97 /* PDFViewController.h */,
+				18AFA4041FF4E3280005AD97 /* PDFViewController.m */,
 			);
 			path = QuartzViewDemo;
 			sourceTree = "<group>";
@@ -227,7 +261,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186916AD1FF391B800052606 /* Demo.png in Resources */,
+				18AFA3B51FF49F170005AD97 /* avfoundation.pdf in Resources */,
 				18C1BFF41FE21C47008ABBDE /* LaunchScreen.storyboard in Resources */,
+				18AFA3B31FF48DB60005AD97 /* Quartz.pdf in Resources */,
 				18C1BFF11FE21C47008ABBDE /* Assets.xcassets in Resources */,
 				18C1BFEF1FE21C47008ABBDE /* Main.storyboard in Resources */,
 			);
@@ -246,11 +283,14 @@
 				18C1BFEC1FE21C47008ABBDE /* ViewController.m in Sources */,
 				18C1BFFF1FE24763008ABBDE /* QuartzView.m in Sources */,
 				18C1C0061FE24946008ABBDE /* LinesQuartzView.m in Sources */,
+				18AFA3FF1FF4E0DE0005AD97 /* QuartzPDFView.m in Sources */,
 				1833D04E1FF1E04C002C8B6A /* PolygonsViewController.m in Sources */,
+				18AFA3FC1FF4E0040005AD97 /* PageViewController.m in Sources */,
 				18FC59171FE8E4AE00806662 /* RectanglesView.m in Sources */,
 				1833D0541FF1F4A8002C8B6A /* BerierView.m in Sources */,
+				18AFA3BF1FF4BF8A0005AD97 /* PDFHelper.m in Sources */,
 				18C1BFF71FE21C47008ABBDE /* main.m in Sources */,
-				1833D05A1FF1F59B002C8B6A /* PDFView.m in Sources */,
+				18AFA4051FF4E3280005AD97 /* PDFViewController.m in Sources */,
 				18FC59111FE8B45200806662 /* DashView.m in Sources */,
 				18FC59141FE8B64200806662 /* DashViewController.m in Sources */,
 				1833D0511FF1F48C002C8B6A /* EllipseArcView.m in Sources */,
@@ -318,6 +358,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CoreGrapicDemo/CoreGrapic.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -371,6 +412,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CoreGrapicDemo/CoreGrapic.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

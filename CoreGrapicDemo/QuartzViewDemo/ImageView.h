@@ -9,5 +9,5 @@
 #import "QuartzView.h"
 
 @interface ImageView : QuartzView
-
+@property (nonatomic,strong)UIImage * image;
 @end
